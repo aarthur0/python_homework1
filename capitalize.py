@@ -1,4 +1,5 @@
 #capitalize function
-s=input("input a string ")
-k=s[0].upper()+s[1::]
-print(k)
+def capital_str(m):
+    k=m[0].upper()+m[1::]
+    return k
+
